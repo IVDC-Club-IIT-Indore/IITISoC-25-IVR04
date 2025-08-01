@@ -14,14 +14,13 @@ Mentors
 _**Mentor 1**:  SARANG JAGDISH
 _**Mentor 2**:  [@mentor2](https://github.com/mentor2)_
 
- Battery Pack Modeling using MATLAB Simulink:
-
- Project Overview:
-
-This project is focused on building a lithium-ion battery pack in MATLAB Simulink using the Simscape Battery Toolbox. The goal is to simulate a basic battery setup and observe heat generation during operation. This is part of an EV Battery Thermal Management System (BTMS) project.
 
 
- 
+# Battery Thermal Management System using MATLAB/Simulink
+
+This project is about simulating a Battery Thermal Management System (BTMS) for lithium-ion battery pack using MATLAB Simulink. The model mainly uses a cooling plate with ON/OFF logic to manage battery temperature during operation. We used different modeling approaches and Simulink files to implement and test the system.
+
+
 
 Tools Used
 
@@ -29,9 +28,6 @@ Tools Used
 - Simscape 
 - Simulink
 
-# Battery Thermal Management System using MATLAB/Simulink
-
-This project is about simulating a Battery Thermal Management System (BTMS) for a 1 kWh lithium-ion battery pack using MATLAB Simulink. The model mainly uses a cooling plate with ON/OFF logic to manage battery temperature during operation. We used different modeling approaches and Simulink files to implement and test the system.
 
 ---
 
