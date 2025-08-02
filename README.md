@@ -37,11 +37,8 @@ Tools Used
 
 This is the main Simulink model we used to simulate the cooling plate-based BTMS. The battery pack used in this model was imported from a `myBatteryPack.slx` file that we had created using the Simscape Battery Builder. The battery was connected to a thermal system with a cooling plate, thermal reservoir, and ON/OFF switching logic based on temperature. This file shows how the basic BTMS system works using logic blocks and thermal components.you have to first load`myBatteryPack.mat` before using model.
 
-### 2. `batteriesUR_Pack.slx`
 
-This model contains the battery pack we brought directly from a `.mat` file that was previously created using Battery Builder in Simscape. It was used as a reference or base for modeling the main BTMS system. It helped us understand how to import custom-built battery packs into Simulink.
-
-### 3. `NBatteries.slx`
+### 2. `NBatteries.slx`
 
 This file contains a battery pack that we created completely using MathWorks' Battery Builder tool. It models a full 1 kWh lithium-ion battery pack with the following configuration:
 - 10 cylindrical cells in parallel
@@ -51,7 +48,7 @@ This file contains a battery pack that we created completely using MathWorks' Ba
 
 This structure was modeled directly using `simscape.battery.builder`. The geometry used for each cell was cylindrical. This file was used as the base for our fan/radiator cooling model.
 
-### 4. `ncoolingfan.slx`
+### 3. `ncoolingfan.slx`
 
 In this file, we attempted to create a more advanced BTMS using a fan and radiator system. We used fan blocks and heat exchanger components from Simulink to cool the battery pack created in `NBatteries.slx`. However, this model did not simulate successfully due to issues with unit mismatches (like m³/s vs. kg/s) and physical port connection errors. Although it didn’t run, it showed us how complex active cooling models can be and helped us identify areas that need debugging.
 
