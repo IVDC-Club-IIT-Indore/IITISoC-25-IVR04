@@ -35,7 +35,7 @@ Tools Used
 
 ### 1. `batterypack_coolingplate.slx`
 
-This is the main Simulink model we used to simulate the cooling plate-based BTMS. The battery pack used in this model was imported from a `.mat` file that we had created using the Simscape Battery Builder. The battery was connected to a thermal system with a cooling plate, thermal reservoir, and ON/OFF switching logic based on temperature. This file shows how the basic BTMS system works using logic blocks and thermal components.
+This is the main Simulink model we used to simulate the cooling plate-based BTMS. The battery pack used in this model was imported from a `myBatteryPack.slx` file that we had created using the Simscape Battery Builder. The battery was connected to a thermal system with a cooling plate, thermal reservoir, and ON/OFF switching logic based on temperature. This file shows how the basic BTMS system works using logic blocks and thermal components.you have to first load 'myBatteryPack.mat' before using model.
 
 ### 2. `batteriesUR_Pack.slx`
 
